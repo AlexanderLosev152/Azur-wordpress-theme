@@ -1,7 +1,18 @@
-@import './reset';
-@import './normalize';
-@import './mixins';
-@import './media';
-@import './fonts';
-@import './container';
-@import './vars';
+@import './default/reset';
+@import './default/normalize';
+@import './default/mixins';
+@import './default/media';
+@import './default/fonts';
+@import './default/container';
+@import './default/vars';
+@import './default/typograpfy';
+
+@import './blocks/header/header';
+
+body {
+	font-family: var(--font-family);
+	font-weight: 400;
+	font-size: 1rem;
+	line-height: 1.6;
+	color: #fff;
+}

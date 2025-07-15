@@ -1,0 +1,12 @@
+@import './mixins.scss';
+
+@include font-face('Manrope', 'Manrope-Light', $weight: 300, $style: normal);
+@include font-face('Manrope', 'Manrope-Medium', $weight: 500, $style: normal);
+@include font-face('Manrope', 'Manrope-Regular', $weight: 400, $style: normal);
+@include font-face('Manrope', 'Manrope-SemiBold', $weight: 600, $style: normal);
+@include font-face(
+	'PlayfairDisplay',
+	'PlayfairDisplay-Regular',
+	$weight: 400,
+	$style: normal
+);

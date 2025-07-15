@@ -5,6 +5,7 @@ Template Name: home
 ?>
 
 <?php get_header() ?>
+
 <header class="header container">
 	<div class="logo">
 		Logo
@@ -28,4 +29,5 @@ Template Name: home
 		<span>burger</span>
 	</button>
 </header>
+
 <?php get_footer(); ?>
