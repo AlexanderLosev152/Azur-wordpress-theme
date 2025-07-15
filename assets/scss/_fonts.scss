@@ -1,0 +1,17 @@
+@import './mixins.scss';
+
+@include font-face(
+  'ClashDisplay',
+  'ClashDisplay-Medium',
+  $weight: 500,
+  $style: normal
+);
+
+@include font-face(
+  'ClashDisplay',
+  'ClashDisplay-Regular',
+  $weight: 400,
+  $style: normal
+);
+
+@include font-face('Inter', 'Inter-Regular', $weight: 400, $style: normal);
